@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bingobricka</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   <h3>
+    <img src="1.gif">
+  </h3>
+ 
+ <div class="lista">
+ 
+ <h5>Välj din bricka,<br/>inget hopp mellan brickor</h5>
+ 
+ <p><span class="pris"><a href="henrik.html">Henrik</a>
+  <p><span class="pris"><a href="danne.html">Danne + Elin</a>
+    <p><span class="pris"><a href="simone.html">Simone</a>
+      <p><span class="pris"><a href="linn.html">Linn</a>
+
+        <script>
+          // Animate the entire body content from the bottom with a smooth ease-in
+          gsap.from("h3", {
+            y: 30,          // start 100px below the viewport
+            opacity: 0,      // start invisible
+            duration: 0.8,     // animation lasts 2 seconds
+            delay: 0.2,
+            ease: "power2.out" // smooth ease-in-like motion (starts fast, ends smooth)
+            
+          });
+        </script>
+           <script>
+              // Animate the entire body content from the bottom with a smooth ease-in and delay
+              gsap.from("h5", {
+                y: 20,           // start 100px below
+                opacity: 0,       // start invisible
+                duration: 0.6,      // animation lasts 2 seconds
+                delay: 0.3,         // wait 1 second before starting
+                ease: "power2.out" // smooth ease-in-like motion
+              });
+            </script>
+             <script>
+              // Animate the entire body content from the bottom with a smooth ease-in and delay
+              gsap.from(".lista", {
+                y: 30,           // start 100px below
+                opacity: 0,       // start invisible
+                duration: 1.1,      // animation lasts 2 seconds
+                delay: 0.5,         // wait 1 second before starting
+                ease: "power2.out" // smooth ease-in-like motion
+              });
+            </script>
+</body>
+</html>

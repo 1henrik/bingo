@@ -1,0 +1,99 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Reenie Beanie';
+  background-color: #e6f4f1;
+  overflow-y: hidden;
+
+}
+.overlay 
+{
+  background-color: #c85315;
+  width: 100%;
+  height: 100%;
+  color:#c85315;
+}
+.ett {
+width:80px;
+height:80px;
+display: inline-block;
+font-weight: bold;
+font-size: 1.2rem;
+}
+.tva {
+width:80px;
+height:80px;
+display: inline-block;
+font-weight: bold;
+font-size: 1.2rem;
+}
+.tre {
+width:80px;
+height:80px;
+display: inline-block;
+font-weight: bold;
+font-size: 1.2rem;
+}
+
+
+
+.lista {
+  width: auto;
+  height: auto;
+  text-align:center;
+
+  padding-bottom: 0.2vw;
+  color: #c85315;
+  position: relative;
+}
+ img {
+  width: 300px;
+ }
+.mat {
+
+  padding-top:20px;
+line-height: 15px;
+}
+h4{
+
+	font-size: 1rem;
+	font-weight: normal;
+
+}
+h3{
+
+  width: auto;
+  
+  text-align:center;
+ 
+  position: relative;
+}
+.test {
+  position: fixed;
+float:right;
+padding-left: 60vw;
+}
+p{
+	font-size: 0.8rem;
+
+ font-weight: bold;
+}
+.pris
+{
+
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+a {
+  color: #82B9B9;
+
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 20px;
+}

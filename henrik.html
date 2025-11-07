@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bbbbbbingo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Henriks<br/>bingobricka</h1>
+  <div class="bingo-board" id="bingo-board">
+    <!-- De 16 rutorna kommer att genereras dynamiskt -->
+  </div>
+
+  <script src="scripth.js"></script>
+  <script>
+    // Animate the entire body content from the bottom with a smooth ease-in
+    gsap.from("h1", {
+      y: 30,          // start 100px below the viewport
+      opacity: 0,      // start invisible
+      duration: 0.8,     // animation lasts 2 seconds
+      ease: "power2.out" // smooth ease-in-like motion (starts fast, ends smooth)
+    });
+  </script>
+     <script>
+        // Animate the entire body content from the bottom with a smooth ease-in and delay
+        gsap.from(".bingo-board", {
+          y: 30,           // start 100px below
+          opacity: 0,       // start invisible
+          duration: 0.8,      // animation lasts 2 seconds
+          delay: 0.2,         // wait 1 second before starting
+          ease: "power2.out" // smooth ease-in-like motion
+        });
+      </script>
+</body>
+</html>
